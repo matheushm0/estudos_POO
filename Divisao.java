@@ -10,7 +10,7 @@ public class Divisão {
             divide(a, b);
         }
         catch(ArithmeticException e){
-            System.out.println("Divisão impossivel por zero!");
+            System.out.println("Divisão impossivel por 0");
         }
     }  
 }
