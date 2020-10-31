@@ -19,7 +19,7 @@ public class Fibonacci {
  
 	// teste do programa. Imprime os 30 primeiros termos
         for (int i = 0; i < 30; i++) {
-            System.out.print(fibo(i) + ", ");
+            System.out.print(fibo(i) + "\n");
         }
     }
 }
