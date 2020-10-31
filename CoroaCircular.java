@@ -16,6 +16,6 @@ public class CoroaCircular extends Circulo{
    }
     public static void main(String[] args) {
         CoroaCircular c = new CoroaCircular(10, 4);
-        System.out.println(c.AreaCororaCircular());
+        System.out.println("Area da Coroa Circular:\n" + c.AreaCororaCircular());
     }   
 }
