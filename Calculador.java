@@ -21,6 +21,7 @@ public class Calculador {
      public static void main(String[] args) {
         Triangulo2 t = new Triangulo2(3.0, 4.0);
         Calculador calc = new Calculador(t);
+        System.out.println("[RESULTADOS]");
         System.out.println("Triângulo com catetos "+t.catetoA+" e "+t.catetoB);
         System.out.println("Hipotenusa: "+t.calculaHipotenusa());
         System.out.println("Perímetro: "+calc.calculaPerimetro());
