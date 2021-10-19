@@ -15,11 +15,11 @@ public class NumPares {
         if(num%2 == 0){
             numPares.add(num);
             System.out.println("Número adicionado!");
-            System.out.println("Números pares: "+numPares);
+            System.out.println("Números pares: "+ numPares);
         }
         else{
             System.out.println("Número não adicionado");
-            System.out.println("Números pares: "+numPares);
+            System.out.println("Números pares: "+ numPares);
         }
         
     }
